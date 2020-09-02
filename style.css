@@ -1,0 +1,41 @@
+body {
+    background-color: lightpink;
+    text-align: center;
+    color: lightpink;
+}
+
+h1 a {
+    font-size: 54px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+h2 {
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.headline {
+    max-width: 900px;
+    background-color: white;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 200px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: white;
+    max-height: 100px;
+    max-width: 300px;
+    border-radius: 50px;
+}
+
+nav a {
+    font-size: 20px;
+    color: lightpink;
+    
+}
