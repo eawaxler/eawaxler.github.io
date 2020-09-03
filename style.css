@@ -1,51 +1,56 @@
 body {
-    background-color: lightpink;
+    background-color: white;
     text-align: center;
-    color: lightpink;
+    color: white;
 }
 
 h1 {
     font-size: 54px;
     margin-bottom: 0px;
     padding-top: 20px;
+    color: white;
 }
 h2 {
     margin-top: 0px;
     padding-bottom: 20px;
     font-size: 30px;
+    color: white;
 }
 .headline {
-    max-width: 900px;
-    background-color: white;
-    background-position: center;
+    background-color: pink;
+    text-decoration: none;
     position: relative;
     margin: 0 auto;
-    border-radius: 200px;
+    border-radius: 50px;
 }
 
 nav li {
     display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 20px;
-    background-color: white;
+    margin: 0px 20px;
+    padding: 10px 20px;
+    background-color: pink;
     max-height: 100px;
     max-width: 300px;
     border-radius: 50px;
+    
 }
 
 nav a {
     font-size: 20px;
-    color: lightpink;
+    color: white;
     text-decoration: none;
 }
 
-nav a:hover {
+nav li:hover {
     opacity: .7;
+    background-color: lightpink;
 }
 
 p {
-    max-width: 900px;
-    background-color: white;
-    
+    margin-top: 40px;
+    color: white;
+    padding: 30px;
+    align-content: center;
+    border-radius: 70px; 
+    background-color: pink;
 }
