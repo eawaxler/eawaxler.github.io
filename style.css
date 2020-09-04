@@ -9,6 +9,7 @@ h1 {
     margin-bottom: 0px;
     padding-top: 20px;
     color: white;
+    text-decoration: none;
 }
 h2 {
     margin-top: 0px;
@@ -18,7 +19,6 @@ h2 {
 }
 .headline {
     background-color: pink;
-    text-decoration: none;
     position: relative;
     margin: 0 auto;
     border-radius: 50px;
