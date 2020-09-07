@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+    text-align: center;
+    color: white;
+    font-family: 'Gayathri', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gayathri', sans-serif;
+}
+
+h1 {
+    font-size: 54px;
+    margin-bottom: 0px;
+    padding-top: 35px;
+}
+h2 {
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.headline {
+    background-color: pink;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 20px 20px 15px;
+    background-color: pink;
+    max-height: 100px;
+    max-width: 300px;
+    border-radius: 50px;    
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover {
+    opacity: .7;
+    background-color: lightpink;
+}
+
+p {
+    margin-top: 40px;
+    color: white;
+    padding: 30px;
+    align-content: center;
+    border-radius: 70px; 
+    background-color: pink;
+}
