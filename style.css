@@ -3,6 +3,7 @@ body {
     text-align: center;
     color: white;
     font-family: 'Gayathri', sans-serif;
+    min-width: 630px;
 }
 
 a {
@@ -29,6 +30,7 @@ h2 {
     text-align: center;
     max-width: 1000px;
 }
+
 
 nav li {
     display: inline-block;
