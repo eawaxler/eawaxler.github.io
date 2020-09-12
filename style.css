@@ -13,13 +13,13 @@ a {
 }
 
 h1 {
-    font-size: 54px;
+    font-size: 78px;
     margin-bottom: 0px;
     padding-top: 35px;
 }
 h2 {
     margin-top: 0px;
-    padding-bottom: 20px;
+    padding: 0px 20px 20px 20px;
     font-size: 30px;
 }
 .headline {
@@ -55,20 +55,26 @@ nav li:hover {
 
 p {
     color: white;
-    font-size: 15px;
-    padding: 0px 50px 30px 50px;
+    font-size: 32px;
+    padding: 0px 50px 10px 50px;
 }
 
 h3 {
     margin-top: 10px;
     margin-bottom: 0;
     padding: 30px 50px 0px 50px;
-    font-size: 35px;
+    font-size: 60px;
+}
+
+h4 {
+    margin: 0px 20px;
+    padding-left: 30px;
+    font-size: 45px;
 }
 
 .info {
     background-color: pink;
-    text-align: left;
+    text-align: center;
     position: relative;
     margin: 0;
     border-radius: 50px;
