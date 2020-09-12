@@ -80,6 +80,16 @@ h4 {
     border-radius: 50px;
 }
 
+ul {
+    list-style-type: none;
+    font-size: 32px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+
+
+/* Clyde Photo Grid*/
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -93,5 +103,4 @@ h4 {
 .column img {
     width: 100%;
     border-radius: 40px;
-    
 }
