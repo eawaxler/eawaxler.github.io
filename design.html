@@ -13,7 +13,7 @@
             <h2>Computational Media Major at Georgia Institute of Technology</h2>
             </a>
         </div>
-        <nav>
+        <nav id="navbar">
             <ul>
                 <li><a href="resume.html">Resume</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -35,5 +35,19 @@
             </figure>
             <a href="https://drive.google.com/file/d/1uyW0S7uYpaZYbig5e1ZFpKJ8aHGdHeaY/view?usp=sharing">PSD File with Layers</a>
         </div>
+		<script>
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+		</script>
     </body>
 </html>

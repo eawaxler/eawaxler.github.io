@@ -10,17 +10,34 @@
         <div class="headline">
             <a href="index.html">
             <h1>Emily Waxler</h1>
-            <h2>Computational Media Major at Georgia Institute of Technology</h2>
             </a>
         </div>
-        <nav>
+        <nav id="navbar">
             <ul>
-                <li><a href="">Resume</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Design</a></li>
-                <li><a href="clyde.html">Prince Clyde</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="clyde.html">Clyde</a></li>
             </ul>
         </nav>
-        <p>hello this is my website. i'm gonna put a picture of myself here too. I'm a student blah blah blah</p>
+        <div class="block">
+            <h3>About</h3>
+            <p class="about">Hello! I am currently studying for a BS in Computational Media at Georgia Institute of Technology. Currently, I am a fourth-year student planning to graduate in May 2022.</p>
+            <img src="TechTower.JPG" width=500>
+        </div>
+		<script>
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+		</script>
     </body>
 </html>
