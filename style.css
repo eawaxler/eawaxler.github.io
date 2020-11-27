@@ -76,17 +76,20 @@ p {
     font-size: 32px;
     padding: 0px 50px 10px 50px;
 	text-align: left;
-	margin-left: 20%;
 	margin-bottom: 30px;
 	margin-top: 5px;
 }
 
-.about {
-	margin-left: 0px;
+.resume {
+	margin-left: 20%;
 }
 
 p a {
 	color: #0E7373
+}
+
+.about {
+	margin-left: 0px;
 }
 
 h3 {
