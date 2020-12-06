@@ -40,11 +40,10 @@ img {
     max-width: 50%;
 }
 
-
 nav li {
     display: inline-block;
-    margin: 0px 20px;
-    padding: 20px 20px 15px;
+    margin: 0px 15px;
+    padding: 10px 20px 5px;
     background-color: #0E6973;
     max-height: 100px;
     max-width: 300px;
@@ -52,7 +51,7 @@ nav li {
 }
 
 nav a {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
 }
@@ -63,14 +62,15 @@ nav li:hover {
 }
 
 .sticky {
-  position: fixed;
-  background-color: #C1D0D9;
-  top: 0;
-	
-  width: 100%;
+    position: fixed;
+    background-color: #C1D0D9;
+    top: 0;	
+	margin-top: 0px; 
+    width: 100%;
 }
 
 button {
+	align-content: center;
 	background-color: #F26D85;
 	text-decoration: none;
   	outline: none;
@@ -114,8 +114,8 @@ p a {
 }
 
 h3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 30px 50px 0px 50px;
     font-size: 70px;
 }
