@@ -6,7 +6,6 @@ body {
     min-width: 630px;
 }
 
-
 a {
     text-decoration: none;
     color: white;
@@ -69,6 +68,22 @@ nav li:hover {
   top: 0;
 	
   width: 100%;
+}
+
+button {
+	background-color: #F26D85;
+	text-decoration: none;
+  	outline: none;
+	margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 50px;
+	color: white;
+    font-family: 'Gayathri', sans-serif;
+	border: none;
+}
+
+button:hover {
+	color: #C1D0D9;
 }
 
 p {
@@ -140,6 +155,13 @@ li {
     margin-bottom: 0;
 }
 
+.panel {
+	display: none;
+	overflow: hidden;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;	
+}
 
 
 ul {
